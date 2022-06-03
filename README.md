@@ -4,6 +4,8 @@
 
 **Date**: June 3, 2022
 
+## Repo Navigation
+
 ```
 .
 ├── README.md
@@ -21,10 +23,25 @@
 │   ├── International_Plan_Churn.png
 │   └── Percentage_Customer_Churn.png
 ├── .gitignore
-├── SyriaTelecommunication.ipynb
-├──
-└──
+├── SyriaTelPresentation.pdf
+└── SyriaTelecommunication.ipynb
 ```
+## Table of Contents
+- Links
+- Business Understanding
+- Business Problem
+- Data Understanding
+- Data Features
+- Methodology & Results
+- Conclusions/Reccomendations
+- Next Steps
+- Contact Info
+
+## Links
+- [Project Notebook](SyriaTelecommunication.ipynb)
+- [Presentation](SyriaTelPresentation.pdf)
+- [data](data/)
+
 ## Business Understanding
 Syria Telecommunications a telecom company has expressed interest in increasing customer retention/reducing customer churn for their user base. They have reached out to us a cohort of trained data scientists to recommend an optimized strategy to decrease customer churn. This analysis will use different statistical analysis tool and classifiers including, but not limited to, logistic regression, train-test split, OneHotEncoder, cross-validation, and decision trees to find what features have the highest impact on customer churn.
 
@@ -63,24 +80,6 @@ The main data set that was used was the Syria Telecommunication data set named (
 7. Chose best model based on highest Recall Score because reducing the likelyhood of FN or customers identified as non churn candidates that actuall do churn to increase customer retention
 8. Best Model final Scores Accuracy: 92.93%, Recall: 80.8%, Precision: 74.26%, F1 Score: 77.39%, and AUC score of 97%. Scores vary by a couple of percentage point when notebook is reran because of SMOTE Data.
 
-## Graphs
-
-![](img/ChurnPercentage.png)
-
-Original Data had a Churn percentage of 14% for all customers in the data set
-
-![](img/Customer_Service_Call_Churn.png)
-
-Shows that Customer Churn percentage increased as customer service call increased with the a 35% jump between 3 and 4 customer service call and a 100% churn at 9 service calls.
-
-![](img/International_Plan_Churn.png)
-
-42% of customer who used the International Plan Churned
-
-![](img/Distribution_Total_Day_Charge.png)
-
-After the $54.03 threshold all customer churned.
-
 ## Conclusions/Reccomendations
 1. Research should be done on why Customer Service was called so many time by users and why it wasn't fixed in the first few occurences to reduce Churn.
 2. Research on why users with an International Plan have such a high churn rate of 42% and what the underlaying factors of the International plan that cause this. Mimic plan from competitive telecom company with low churn rate.
@@ -91,7 +90,7 @@ After the $54.03 threshold all customer churned.
 2. Have more information on the type of customer that utilizes this telephone company because Syria Telecommunications is a Syrian Telecommunications company, but the data set only showed American based users.
 3. More information on specifically the reasons for the customer service calls to see if there where repeat incidents or multiple separate incidences.
 
-##
+## Contact Info
 Email:
 - [Anhduy Nguyen](anguyen61191@gmail.com)
 - [Woojin Jun](wjsdnwls93@gmail.com)
